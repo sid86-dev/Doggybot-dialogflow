@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "doggybot-xjua",
+  "private_key_id": "d6374062206938ccab3e5c4d26a34064765a6026",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC6mLWMc0sKEdFv\n/dY7VtaPCN9kQHkaPH9+gVS2AvnbM7KBS230AdaRsy+XJ6+UHLNVnQ0aPG+Ol5DX\nD6cG7QSf8nUFFFxON6DZ0DXqXyRLtS0FpfyocDoBzwTpkUfJ47P1PuPQgbBiQno/\nr/pOTkX6HoshvjPPkt2SY2//RtRDIQaVug9CvDDypiekJY3ezjbFsw/9xSSE+WAs\n4QBSjhPpY/oV03DT64cQzkKBiuAATCBV9/WABZUn+Ee1u52VO5+zxMa3xpvpOzWi\n3N/uAtGRLYJxz/TwOdTBEoQE86fCpU+KKgU+fZ+TyJlJzcB/zpb1rtuZOpNkzaHk\nJhjUuIxlAgMBAAECggEAJO5SiGDNSknqhNrditMOFjMwW5wzG9E7fqNES93c69iY\njOSL945hlGa9lZIiOxNPHzO9QyMRBUzUOux7J3DDyJBpPr8f4c86w8Fk2mVIPr+2\nEHcgwYmswWzi0QOTDM9Hb9OprTvt2BTGM1K2HMd7LBzddqk5gezUc8PAh+rR2hMZ\nM9eUEjRmGxdlNloSTmXMvg6ZtOaNau3WK0jQSVjRhmzAsA2Jzo9M4vBl4apQnSQi\neSUKHJ56fRPiFDUda6b9W1XmHfZVZZhDASHOF9cuuBcY4v8JS3rjxpQ2Kc69qkRA\n8QOkdlXz/119rkjAELZqLrFH37THliEL/ysR1FDcYQKBgQD0t9KSqdwBNCihHELa\nGL3vZuviuMChOYFHK+lNalUuEYgw5nlRMVhvtZI1MQFfkneUeK02PvTpmwArKCIO\n4w4Ko2DmO6rhQejs9/2/3B/mG+iCqcHW1mD33lLk+aPFmsJ9/lYXE3uaOip689C6\nXSBetKVwS5ZzuV2fVI2+EY9pWQKBgQDDMu7FaKaM3sTi17ajQ807UGxGpADlFC7B\naVp3yysVvQ0VxAqHmqh/EOvyHd68xhONZfnImJ+jVFGNsyJvrNJIJSXRIfatSyPF\n8im5Y4KsocdRkSZyXWuyNN8lMRHNpkyApEUHpeXZvwh0+5twzR0zAIeA4Bdv9XnL\n90nc+Z6N7QKBgFIhW4ejgFXbFoOzw3AE+8HcLfCihuvVK+EiCKPVuw7CDY4z26V3\nRTIAozg84TQdKQroUWGyUWoRfkX9qyiJ5Y2GdZ/viJMfFrhpJn18uCv3U9p+dLLQ\nsiyeLf3xFpjcLsgwUt5dyI7jVJx9NaFGXfXK9PcyNyVRoe02aHfQ1uvJAoGBAKd9\nipflBhQWCkbC5boNsYpVpbKvgv0NZlkbNz9XG28ZuqKUhpx4vl/ZeztTGg5Mv/Yy\nLDRNkZ0p+phlvwSn+/9fsKVUST/FG7r74YVrt3K9ljONIro7Iu/UoixdgHM/YKF5\nUqoPVbyTSIRoaKZPueBLcfnJTxMIRSwY0k5D+iK5AoGBAMRoVVvqZ4ofcqya4rEN\n9W/hs32EW/v2A2gSpzJTjnC+lTM11JqHGOMOQggXRxd8Lw/vc4qcZjCI1MP7mX0k\nbXAfwm7/pnNRotB3jsogeoK/QV3KNTeQwcIxUxG7Toc0cuktyTHXGeTyHEdwIyGp\nQWJJgtDh+gcCrX8QeogzGjFL\n-----END PRIVATE KEY-----\n",
+  "client_email": "doggybot@doggybot-xjua.iam.gserviceaccount.com",
+  "client_id": "114194535478726348698",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/doggybot%40doggybot-xjua.iam.gserviceaccount.com"
+}
