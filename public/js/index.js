@@ -7,7 +7,7 @@ try {
   var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   var recognition = new SpeechRecognition();
   recognition.continuous = false
-  recognition.lang= 'en-US'
+  recognition.lang = 'en-US'
   recognition.interimResults = false
   recognition.maxAlternatives = 1;
 }
@@ -86,7 +86,7 @@ function serverMessage(response2) {
 
 function fetchmsg() {
 
-  var url = `http://localhost:5000/send-msg`
+  var url = `https://doggybot-sid.herokuapp.com/send-msg`
   // 'http://localhost:5000/send-msg';
 
   const data = new URLSearchParams();
