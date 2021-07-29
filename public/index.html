@@ -2,18 +2,23 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-  <title>Doggybot</title>
+    <title>Doggybot</title>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-  <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.min.css'> -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/k2bHSLD/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://i.ibb.co/NNySdnm/favicon-16x16.png" sizes="16x16" />
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.min.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/style.css">
 
 </head>
 
@@ -21,34 +26,33 @@
 
 
 
-  <div class="chat">
-    <div class="chat-title">
-      <h1 style="font-size: large;">DoggyBot</h1>
-      <h2>i am customer support chat bot</h2>
-      <figure class="avatar">
-        <img src="/public/css/bot.png" />
-      </figure>
-    </div>
-    <div class="messages" style="font-size: large;">
-      <div class="messages-content" style="font-size: large;"></div>
-      <div class="suggession" style="font-size: large;">
-        
-      </div>
-    </div>
-    <form style="height: 200px;" class="message-box" id="mymsg">
-      <input type="text" id="MSG" name="MSG" class="message-input" placeholder="Type message...">
+    <div class="chat">
+        <div class="chat-title">
+            <h1 style="font-size: large;">DoggyBot</h1>
+            <h2>i am customer support chat bot</h2>
+            <figure class="avatar">
+                <img src="/public/css/bot.png" />
+            </figure>
+        </div>
+        <div class="messages" style="font-size: large;">
+            <div class="messages-content" style="font-size: large;"></div>
+            <div class="suggession" style="font-size: large;">
 
-      <i class="fas fa-microphone" id="start-record-btn"></i>
-      <button type="submit" class="message-submit" style="font-size: large;">Send</button>
-    </form>
-    <h3 class="no-browser-support" hidden>Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo
-      In Google Chrome.</h3>
-  </div>
-  <div class="bg"></div>
-  <script src='/public/js/jquery.js'></script>
-  <script
-    src='/public/js/jquery.mCustomScrollbar.concat.js'></script>
-  <script src="/public/js/index.js"></script>
+            </div>
+        </div>
+        <form style="height: 200px;" class="message-box" id="mymsg">
+            <input type="text" id="MSG" name="MSG" class="message-input" placeholder="Type message...">
+
+            <i class="fas fa-microphone" id="start-record-btn"></i>
+            <button type="submit" class="message-submit" style="font-size: large;">Send</button>
+        </form>
+        <h3 class="no-browser-support" hidden>Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
+    </div>
+    <div class="bg"></div>
+
+    <script src='/public/js/jquery-2.1.3.min.js'></script>
+    <script src='/public/js/jquery.mCustomScrollbar.concat.min.js'></script>
+    <script src="/public/js/index.js"></script>
 
 
 </body>

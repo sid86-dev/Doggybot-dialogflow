@@ -1,7 +1,6 @@
 var $messages = $('.messages-content');
 var serverResponse = "wala";
 
-
 var suggession;
 try {
   var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -86,8 +85,8 @@ function serverMessage(response2) {
 
 function fetchmsg() {
 
-  var url = `https://doggybot-sid.herokuapp.com/send-msg`
-  // 'http://localhost:5000/send-msg';
+  var url =`https://doggybot-services.herokuapp.com/send-msg`
+    // 'http://localhost:5000/send-msg';
 
   const data = new URLSearchParams();
   for (const pair of new FormData(document.getElementById("mymsg"))) {
@@ -96,7 +95,8 @@ function fetchmsg() {
 
   fetch(url, {
     method: 'POST',
-    body: data
+    body: data,
+    credentials: 'same-origin',
   }).then(res => res.json())
     .then(response => {
       serverMessage(response.Reply);
