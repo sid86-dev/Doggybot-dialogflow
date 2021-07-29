@@ -11,7 +11,7 @@
 <br>
 
 
-## [Web Demo](doggybot-services.herokuapp.com/) 🚀
+## [Web Demo](https://doggybot-services.herokuapp.com/) 🚀
 
 ## [Telegram Integration](https://t.me/Tobiasdoggybot) 📲
  
